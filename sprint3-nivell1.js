@@ -73,9 +73,6 @@ for(j = 0; j < arrLen; j++) {
 // EXERCICI 8
 
 function calculadora(operator,value1,value2) {
-    //let value1 = parseInt(prompt('Introdueix un valor: '));
-    //let operator = prompt('Introdueix un operador: + / - / *');
-    //let value2 = parseInt(prompt('Introdueix un altre valor: '));
     let result;
 
     switch(operator){
