@@ -96,3 +96,34 @@ function calculadora(operator,value1,value2) {
 
 var resultat = calculadora('resta',40,20);
 console.log(resultat);
+
+// EXERCICI NIVELL 2
+
+function calculadora(operator,value1,value2) {
+    let result;
+
+    switch(operator){
+        case 'suma':
+            result = 'El resultat de la ' + operator + ' és: ' + (value1 + value2);
+            break;
+        case 'resta':
+            result = 'El resultat de la ' + operator + ' és: ' + (value1 - value2);
+            break;
+        case 'multiplicació':
+            result = 'El resultat de la ' + operator + ' és: ' + (value1 * value2);
+            break;
+        case 'divisió':
+            if(value2 == 0){
+                result = 'No és possible dividir per 0';
+            }else {
+                result = 'El resultat de la ' + operator + ' és: ' + (value1 / value2);
+            }            
+            break;
+    }
+
+    return result;
+
+}
+
+var resultat = calculadora('resta',40,20);
+console.log(resultat);
