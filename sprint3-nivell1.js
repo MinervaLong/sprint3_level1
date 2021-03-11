@@ -125,5 +125,5 @@ function calculadora(operator,value1,value2) {
 
 }
 
-var resultat = calculadora('resta',40,20);
+var resultat = calculadora('divisió',40,0);
 console.log(resultat);
